@@ -32,7 +32,8 @@ const PageAbout = () => {
             <h3>About TMDB</h3>
             <div>This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
             <div>
-              <img src="/public/images/TMDB-logo.svg" alt="TMDB logo" className='logo-small clickable' 
+              {/* <img src="/public/images/TMDB-logo.svg" alt="TMDB logo" className='logo-small clickable'  */}
+              <img src="./images/TMDB-logo.svg" alt="TMDB logo" className='logo-small clickable' 
                 onClick={() => window.open("https://developer.themoviedb.org/docs/getting-started", "_blank")} />
             </div>
           </div>
